@@ -250,7 +250,7 @@ export default class Dapp extends React.Component<Props, State> {
 
             {!this.isWalletConnected() || this.state.isWhitelistMintEnabled ?
               <div className="merkle-proof-manual-address">
-                <h2>Whitelist Proof</h2>
+                <h2>Allow List Proof</h2>
                 <p>
                   Anyone can generate the proof using any public address in the list, but <strong>only the owner of that address</strong> will be able to make a successful transaction by using it.
                 </p>
